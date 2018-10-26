@@ -113,7 +113,7 @@ h2{
     display:block;   
 }
 input {
-    background-image: url(sprite.png);   
+    background-image: url(img/sprite.png);   
     background-repeat: no-repeat; /*Убираем повтор изображения*/   
     background-position: 4px; /*Позиционируем*/   
     outline: none; /*убираем стандартную обводку браузера*/   
