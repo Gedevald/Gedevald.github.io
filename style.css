@@ -1,0 +1,154 @@
+a{
+    text-decoration: none;
+    color:#000000;    
+}
+.header-inner{   
+  width: 95%;
+  height: 100%;    
+  margin: auto; 
+}
+.menu{
+width: 100%;
+  height: 100%;
+  float: left; margin-left: 10px 0;justify-content: space-between;
+}
+
+.menu-list-main{
+   margin: auto;
+  list-style: none;
+  display:flex;
+    width: 50%;
+    padding: 10px 10px;    
+}
+.menu-list-main li{
+    font-family: 'Tahoma', Times, serif; 
+    font-size: 135%;
+    width: inherit;
+  margin: inherit;
+  padding: inherit;
+ display: inline-block;
+}
+.menu-list-main li ul{
+  list-style: none;
+  display: none;
+  padding: 0;
+  position: absolute;
+}
+.menu-list-main li ul li{
+  display: block;
+  padding: 10px;
+  background-color: #000000;
+
+}
+.menu-list-main li:hover > ul{
+  display: block;
+    
+}
+.menu-link{
+  text-decoration: none;
+  font-size: 16px;
+  color: grey;
+}
+.menu-list-user{
+  padding: 10;
+  list-style: none;
+  display: flex;
+    float: right;
+}
+.menu-list-user li{
+  margin: 10;
+  padding:0  10px;  
+}
+.menu-list-user li a:hover{
+  color: blue;
+}
+.free_shipping{
+  height: 25px;    
+  background-color: #FF7F50;
+
+}
+.free_shipping:hover{    
+    background-color: #00BFFF;
+}
+.free_text{
+    width: 130px;
+    background-color: #2F4F4F;
+}
+h1{
+     font-family: 'Tahoma', Times, serif; 
+    font-size: 250%;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+     font-family: 'Tahoma', Times, serif; 
+    font-size: 190%;
+    font-weight: normal;
+    text-align: center;
+}
+.story{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 150%;    
+    font-weight: normal;
+    text-align: center;    
+}
+.picture_tie
+{
+    width: 100%;   
+    text-align: center;
+    background: gray;
+}
+   figure {  
+    display: inline-block; /* Блочный элемент */   
+    text-align: center; /* Выравнивание по центру */            
+   } 
+
+.picture_3
+{
+    text-align: center;
+}
+.inpu-box{
+    position: relative;
+    margin:4px;
+    display:block;   
+}
+input {
+    background-image: url(sprite.png);   
+    background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    background-position: 4px; /*Позиционируем*/   
+    outline: none; /*убираем стандартную обводку браузера*/   
+    -moz-border-radius: 5px; /*закругляем углы для Mozilla*/  
+    -webkit-border-radius: 5px; /*закругляем углы для Chrome, Safari*/   
+    border-radius: 5px; /*закругляем углы для остальных браузеров*/  
+    padding-left: 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/  
+    height: 20px; /*высота строки ввода*/   
+    font-size: 13px; /*размер шрифта*/
+}
+.grid {
+list-style:none;
+margin:0;
+padding:0;
+}
+.grid:after{
+content:'';
+display:block;
+width:100%;
+height:0px;
+clear:both;
+}
+.grid li {
+display: block;
+float:left;
+width:25%; /* можем поменять на 20 и сделать margin:0 2.5%;.. суть думаю понятна */
+height: 150px;
+overflow:hidden;
+}
+.grid li img {
+display:block;
+max-width:100%;
+height: auto; /* или 150px */
+margin:0 auto;
+}
+.grid li img:hover {
+border: 10px solid blue;
+}
