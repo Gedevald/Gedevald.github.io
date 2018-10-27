@@ -154,6 +154,6 @@ border: 10px solid blue;
 }
 @media all and (max-width: 768px) {
     .menu-list-main li{
-        display: hide;
+        display: none;
 }
 }
