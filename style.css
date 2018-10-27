@@ -153,6 +153,8 @@ margin:0 auto;
 border: 10px solid blue;
 }
 @media all and (max-width: 768px) {
+    .menu-list-main{
+    display:none;}
     .menu-list-main li{
         display: none;
 }
