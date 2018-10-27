@@ -156,6 +156,7 @@ border: 10px solid blue;
     .menu-list-main{
     display:none;}
     .menu-list-main li{
+        font-size: 35%;
         display: none;
 }
 }
