@@ -152,11 +152,15 @@ margin:0 auto;
 .grid li img:hover {
 border: 10px solid blue;
 }
-@media all and (max-width: 768px) {
+@media  (max-width: 768px) {
     .menu-list-main{
+        font-size: 35%;
     display:none;}
     .menu-list-main li{
         font-size: 35%;
         display: none;
 }
+    a{
+       font-style: italic;
+    }
 }
