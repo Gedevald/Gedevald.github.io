@@ -155,10 +155,10 @@ border: 10px solid blue;
 @media  (max-width: 768px) {
     .menu-list-main{
         font-size: 35%;
-    display:none;}
+    display:block;}
     .menu-list-main li{
         font-size: 35%;
-        display: none;
+        display: block;
 }
     a{
        font-style: italic;
