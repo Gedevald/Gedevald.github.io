@@ -167,6 +167,9 @@ border: 10px solid blue;
     .free_shipping1{
     display:none;
 }
+       .free_shipping2{
+    display:inline-block;
+}
     a{
        font-style: italic;
     }
