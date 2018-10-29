@@ -65,7 +65,9 @@ width: 100%;
 .free_shipping{
   height: 25px;    
   background-color: #FF7F50;
-
+}
+.free_shipping2{
+    display:none;
 }
 .free_shipping:hover{    
     background-color: #00BFFF;
@@ -161,6 +163,9 @@ border: 10px solid blue;
     .menu-list-main li{
         font-size: 35%;
         display: inline-block;
+}
+    .free_shipping1{
+    display:none;
 }
     a{
        font-style: italic;
