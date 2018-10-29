@@ -164,6 +164,11 @@ border: 10px solid blue;
         font-size: 35%;
         display: inline-block;
 }
+    .free_shipping{
+  height: 35px;    
+  background-color: #FF7F50;
+
+}
     .free_shipping1{
     display:none;
 }
