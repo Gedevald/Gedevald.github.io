@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 4</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <style>
+          #image,#name, #login,#bio,#company,#location,#email,#blog{
+              margin-left: 20px;
+          }
+      </style>
+  </head>
+  <body style="margin: 0">
+    <div style="margin: 20px">
+      <label for="user">Login:</label>
+      <input type="text" id="user" value='gaearon'/>
+      <button id="getUser" onclick="getUser()">Get User</button>
+    </div>
+    <div>
+      <img id='image' style="width: 228px; height: 228px; border-radius: 15px" />
+      <h2 id='name' ></h2>
+      <p id='login' ></p>
+      <p id='bio' ></p>
+      <hr style="width: 228px; margin-left: 20px"/>
+      <p id='company' ></p>
+      <p id='location' ></p>
+      <p id='email' ></p>
+      <p id='blog'></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
